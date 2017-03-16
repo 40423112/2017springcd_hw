@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016FallCADP (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/zuo-ye.atom.xml" rel="self"></link><id>./</id><updated>2017-03-02T12:00:00+08:00</updated><entry><title>協同產品設計實習 w1</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w1.html" rel="alternate"></link><published>2017-03-02T12:00:00+08:00</published><updated>2017-03-02T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-03-02:./xie-tong-chan-pin-she-ji-shi-xi-w1.html</id><summary type="html">&lt;h1&gt;fourbar&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016FallCADP (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/zuo-ye.atom.xml" rel="self"></link><id>./</id><updated>2017-03-16T12:00:00+08:00</updated><entry><title>協同產品設計實習 w4</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w4.html" rel="alternate"></link><published>2017-03-16T12:00:00+08:00</published><updated>2017-03-16T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-03-16:./xie-tong-chan-pin-she-ji-shi-xi-w4.html</id><summary type="html">&lt;h1&gt;創立 fossil小組 在個別加入所屬小組&lt;/h1&gt;
+
+
+&lt;p&gt;在設定fossil前，先進入chrome 設定proxy，網址是 140.130.17.4 連接埠是3128，再到進階裡面改掉自己IPV4之後就可以成功設定proxy，接下來去http://mde.tw/2017springcd/blog/intro-fossil-scm.html 複製老師start的蓋掉自己的原先的檔案，在CMD裡面打指令 fossil init xxxx.fossil 創立一個fossil後在記下密碼， 今天一開始重新設定了fossil，在已經設定好了IPV4也成功開啟，但經過老師切換掉我們的螢幕幾分鐘後，在按下重新整理之後就開不起來，在經過檢查後所有的設定都沒變，所以我使用 ipconfig /all 指令回去看我IPV4有沒有變動，在經過檢查後還是沒有任何變化 ，所以我只好重新建立一個fossil。&lt;/p&gt;
+&lt;p&gt;今天老師在fossil創了個別小組，要每個人加入自己所屬的小組。&lt;/p&gt;
+&lt;p&gt;今天還教我們如何使用fossil 的指令 fossil sql -R xxxxxx.fossil 這個指令可以顯示fossil的密碼&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 w3</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w3.html" rel="alternate"></link><published>2017-03-09T12:00:00+08:00</published><updated>2017-03-09T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-03-09:./xie-tong-chan-pin-she-ji-shi-xi-w3.html</id><summary type="html">&lt;h1&gt;設定 fossil&lt;/h1&gt;
+
+
+&lt;p&gt;在設定fossil前，先進入chrome 設定proxy，網址是 140.130.17.4 連接埠是3128，再到進階裡面改掉自己IPV4之後就可以成功設定proxy，接下來去http://mde.tw/2017springcd/blog/intro-fossil-scm.html 複製老師start的蓋掉自己的原先的檔案，在CMD裡面打指令 fossil init xxxx.fossil 創立一個fossil後在記下密碼， 今天一開始重新設定了fossil &lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 w1</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w1.html" rel="alternate"></link><published>2017-03-02T12:00:00+08:00</published><updated>2017-03-02T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-03-02:./xie-tong-chan-pin-she-ji-shi-xi-w1.html</id><summary type="html">&lt;h1&gt;fourbar&lt;/h1&gt;
 
 
 &lt;p&gt;使用 solvespace 繪製 四連桿機構 
