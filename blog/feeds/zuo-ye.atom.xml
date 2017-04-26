@@ -15,7 +15,40 @@
 &lt;p&gt;利用 onshape 組裝並模擬 Fourbar Walker &lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/214858821" width="640" height="341" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/214858821"&gt;Fourbar Walker OnShape 零件組立運動模擬&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207235"&gt;吳欣奕&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 w6</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w6.html" rel="alternate"></link><published>2017-03-30T12:00:00+08:00</published><updated>2017-03-30T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-03-30:./xie-tong-chan-pin-she-ji-shi-xi-w6.html</id><summary type="html">&lt;p&gt;多連桿機構轉入 V-rep 進行運動模擬&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214858821"&gt;Fourbar Walker OnShape 零件組立運動模擬&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207235"&gt;吳欣奕&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;link href="./../work/madeleine/src/css/Madeleine.css" rel="stylesheet"&gt;
+&lt;script src="./../work/madeleine/src/stats.js"&gt;&lt;/script&gt;
+&lt;script src="./../work/madeleine/src/detector.js"&gt;&lt;/script&gt;
+&lt;script src="./../work/madeleine/src/three.min.js"&gt;&lt;/script&gt;
+&lt;script src="./../work/madeleine/src/Madeleine.js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;div id="target" class="madeleine"&gt;&lt;/div&gt;
+
+&lt;script&gt;
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../data/Fourbar Walker.stl', // data path
+      path: './../work/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+&lt;/script&gt;
+
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"
+&gt;&lt;/script&gt;
+
+&lt;script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"
+&gt;&lt;/script&gt;
+
+&lt;script src="./../data/w9/loader.js"&gt;&lt;/script&gt;
+
+&lt;script src="./../data/w9/stl.js"&gt;&lt;/script&gt;
+
+&lt;div&gt;
+select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
+&lt;/div&gt;
+
+&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 w6</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w6.html" rel="alternate"></link><published>2017-03-30T12:00:00+08:00</published><updated>2017-03-30T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-03-30:./xie-tong-chan-pin-she-ji-shi-xi-w6.html</id><summary type="html">&lt;p&gt;多連桿機構轉入 V-rep 進行運動模擬&lt;/p&gt;
 
 
 &lt;p&gt;利用 solvespace 繪製八連桿 並轉出 .STL檔案 放入V-REP 進行運動模擬&lt;/p&gt;
