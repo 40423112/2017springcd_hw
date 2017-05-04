@@ -52,6 +52,33 @@ print(sum)
 
 &lt;/pre&gt;
 
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+def button1(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)+float(b))
+doc["button1"].bind("click", button1)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button1"&gt;加法運算&lt;/button&gt;&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/214957102" width="640" height="328" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="https://vimeo.com/214957102"&gt;add&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207235"&gt;吳欣奕&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
@@ -72,6 +99,33 @@ print(sum)
 
 &lt;/pre&gt;
 
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;div id="container2" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container2']
+def button2(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)-float(b))
+doc["button2"].bind("click", button2)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button2"&gt;減法運算&lt;/button&gt;&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/214957402" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="https://vimeo.com/214957402"&gt;minus&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207235"&gt;吳欣奕&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
@@ -92,6 +146,33 @@ print(sum)
 
 &lt;/pre&gt;
 
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;div id="container3" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container3']
+def button3(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)*float(b))
+doc["button3"].bind("click", button3)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button3"&gt;乘法運算&lt;/button&gt;&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/214957482" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="https://vimeo.com/214957482"&gt;cro&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207235"&gt;吳欣奕&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
@@ -112,6 +193,33 @@ print(sum)
 
 &lt;/pre&gt;
 
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;div id="container4" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container4']
+def button4(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)/float(b))
+doc["button4"].bind("click", button4)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button4"&gt;除法運算&lt;/button&gt;&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/214957543" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="https://vimeo.com/214957543"&gt;exc&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207235"&gt;吳欣奕&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 期中考</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-qi-zhong-kao.html" rel="alternate"></link><published>2017-04-20T12:00:00+08:00</published><updated>2017-04-20T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-04-20:./xie-tong-chan-pin-she-ji-shi-xi-qi-zhong-kao.html</id><summary type="html">&lt;p&gt;1.四連桿機構協同 Trace Point &lt;/p&gt;
@@ -169,7 +277,50 @@ window.onload = function(){
 select stl file: &lt;input type="file" id="file" /&gt; or drop stl file
 &lt;/div&gt;
 
-&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 w6</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w6.html" rel="alternate"></link><published>2017-03-30T12:00:00+08:00</published><updated>2017-03-30T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-03-30:./xie-tong-chan-pin-she-ji-shi-xi-w6.html</id><summary type="html">&lt;p&gt;多連桿機構轉入 V-rep 進行運動模擬&lt;/p&gt;
+&lt;div id="view"&gt;&lt;/div&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 w11</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w11.html" rel="alternate"></link><published>2017-03-30T12:00:00+08:00</published><updated>2017-03-30T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-03-30:./xie-tong-chan-pin-she-ji-shi-xi-w11.html</id><summary type="html">&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;p&gt;1.加法&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+加法
+def add(a, b):
+    return a+b
+
+加法運算  
+import sys
+sys.path.append("./w10")
+import add
+
+sum = add.add(4, 6)
+print(sum)
+
+&lt;/pre&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+def button1(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(b)+float(a))
+    doc["button1"].bind("click", button1)
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button1"&gt;a+b&lt;/button&gt;&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>協同產品設計實習 w6</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w6.html" rel="alternate"></link><published>2017-03-30T12:00:00+08:00</published><updated>2017-03-30T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-03-30:./xie-tong-chan-pin-she-ji-shi-xi-w6.html</id><summary type="html">&lt;p&gt;多連桿機構轉入 V-rep 進行運動模擬&lt;/p&gt;
 
 
 &lt;p&gt;利用 solvespace 繪製八連桿 並轉出 .STL檔案 放入V-REP 進行運動模擬&lt;/p&gt;

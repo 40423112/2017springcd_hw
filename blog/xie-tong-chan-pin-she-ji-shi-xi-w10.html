@@ -334,6 +334,33 @@ print(sum)
 
 </pre>
 
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<div id="container" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+def button1(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)+float(b))
+doc["button1"].bind("click", button1)
+
+</script>
+
+<p><button id="button1">加法運算</button></p>
 <iframe src="https://player.vimeo.com/video/214957102" width="640" height="328" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <p><a href="https://vimeo.com/214957102">add</a> from <a href="https://vimeo.com/user44207235">吳欣奕</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -354,6 +381,33 @@ print(sum)
 
 </pre>
 
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<div id="container2" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container2']
+def button2(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)-float(b))
+doc["button2"].bind("click", button2)
+
+</script>
+
+<p><button id="button2">減法運算</button></p>
 <iframe src="https://player.vimeo.com/video/214957402" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <p><a href="https://vimeo.com/214957402">minus</a> from <a href="https://vimeo.com/user44207235">吳欣奕</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -374,6 +428,33 @@ print(sum)
 
 </pre>
 
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<div id="container3" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container3']
+def button3(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)*float(b))
+doc["button3"].bind("click", button3)
+
+</script>
+
+<p><button id="button3">乘法運算</button></p>
 <iframe src="https://player.vimeo.com/video/214957482" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <p><a href="https://vimeo.com/214957482">cro</a> from <a href="https://vimeo.com/user44207235">吳欣奕</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -394,6 +475,33 @@ print(sum)
 
 </pre>
 
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<div id="container4" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container4']
+def button4(event):
+    a = input("give me a")
+    b = input("give me b")
+    container <= str(float(a)/float(b))
+doc["button4"].bind("click", button4)
+
+</script>
+
+<p><button id="button4">除法運算</button></p>
 <iframe src="https://player.vimeo.com/video/214957543" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <p><a href="https://vimeo.com/214957543">exc</a> from <a href="https://vimeo.com/user44207235">吳欣奕</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -427,13 +535,13 @@ print(sum)
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-w6.html">
-                            協同產品設計實習 w6
+                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-w11.html">
+                            協同產品設計實習 w11
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-w5.html">
-                            協同產品設計實習 w5
+                        <a href="./xie-tong-chan-pin-she-ji-shi-xi-w6.html">
+                            協同產品設計實習 w6
                         </a>
                     </li>
                 </ul>
