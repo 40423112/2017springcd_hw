@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>2017Springcd (MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/zuo-ye.atom.xml" rel="self"></link><id>./</id><updated>2017-05-11T12:00:00+08:00</updated><entry><title>協同產品設計實習 w12</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w12.html" rel="alternate"></link><published>2017-05-11T12:00:00+08:00</published><updated>2017-05-11T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-05-11:./xie-tong-chan-pin-she-ji-shi-xi-w12.html</id><summary type="html">&lt;p&gt;17 13 11 齒輪組嚙合&lt;/p&gt;
 
 
-&lt;p&gt;利用漸開線原理, 以 Brython 繪製單一正齒輪廓:&lt;/p&gt;
+&lt;p&gt;利用漸開線原理, 以 Brython 繪製正齒輪廓:&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
