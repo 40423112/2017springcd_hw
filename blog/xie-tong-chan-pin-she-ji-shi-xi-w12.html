@@ -463,7 +463,7 @@ class Spur(object):
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
 canvas = doc['onegear']
 ctx = canvas.getContext("2d")
-x = (canvas.width)/2
+x = (canvas.width)/2 - 100
 y = (canvas.height)/2
 r = 0.8*(canvas.height/2)
 # 齒數
@@ -482,9 +482,9 @@ y11 = y
 y13 = y
 # 壓力角
 pa = 20
-gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa, "blue")
-gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa, "blue")
-gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa, "blue")
+gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa, "yellow")
+gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa, "green")
+gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa, "black")
 
 div = doc["onegear_div"]
 
