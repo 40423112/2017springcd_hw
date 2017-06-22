@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Springcd (MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/zuo-ye.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T12:00:00+08:00</updated><entry><title>w15 練習</title><link href="./w15-lian-xi.html" rel="alternate"></link><published>2017-06-01T12:00:00+08:00</published><updated>2017-06-01T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-06-01:./w15-lian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Springcd (MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/zuo-ye.atom.xml" rel="self"></link><id>./</id><updated>2017-06-22T12:00:00+08:00</updated><entry><title>協同產品設計實習 w17</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w17.html" rel="alternate"></link><published>2017-06-22T12:00:00+08:00</published><updated>2017-06-22T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-06-22:./xie-tong-chan-pin-she-ji-shi-xi-w17.html</id><summary type="html">&lt;p&gt;行走機構
+&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/222340552" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222340552"&gt;40423116-2017springcd-final-6.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47573583"&gt;40423116&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>w15 練習</title><link href="./w15-lian-xi.html" rel="alternate"></link><published>2017-06-01T12:00:00+08:00</published><updated>2017-06-01T12:00:00+08:00</updated><author><name>40423112</name></author><id>tag:,2017-06-01:./w15-lian-xi.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;1.800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 , 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
